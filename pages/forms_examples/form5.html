@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html 5</title>
+</head>
+<body>
+
+  <main>
+    <section>
+      <form>
+        <input placeholder="Buscar.." type="search" id="search" name="search" />
+        <br>
+        <input type="color" name="paleta" id="paleta">
+        <br>
+        <input placeholder="Nro de Tel." type="tel" id="tel" name="tel" />
+        <br>
+        <input placeholder="URL" type="url" name="enlace" id="enlace">
+        <input type="submit" value="Enviar">
+        <br>
+
+      </form>
+      <br><br>
+      <form action="">
+        <input placeholder="number" type="number" name="porcentaje" id="porcentaje" min="5" max="90" step="5" />
+        <br>
+        <input placeholder="decimales" type="number" name="ctvos" id="ctvos" min="0" max="0.99" step="0.01" />
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+      <br><br>
+      <form action="">
+        <label for="price">Defina un precio máximo: </label><br>
+        <input
+          type="range"
+          name="price"
+          id="price"
+          min="50000"
+          max="500000"
+          step="100"
+          value="250000" /><br>
+        <output class="price-output" for="price"></output>
+      </form>
+      <br><br>
+      <form action="">
+        <input type="datetime-local" name="datetime" id="datetime" /><br>
+        <input placeholder="Mes" type="month" name="month" id="month" /><br>
+        <input type="time" name="time" id="time" /><br>
+        <label for="camp-week">Elija una semana en Mayo o Junio:</label><br>
+        <input type="week" name="week" id="camp-week" min="2025-W18" max="2025-W26" required />
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+      </form>
+
+      <br><br>
+      <form action="">
+        <label for="progressbar">Progress Bar</label>
+        <progress id="progressbar" max="100" value="50">75/100</progress><br>
+        <label for="meterelement">Meter</label>
+        <meter id="meterelement" min="0" max="50" value="44" low="30" high="45" optimum="0">75</meter>
+      </form>
+    </section>
+  </main>
+  <script src="js/form5.js"></script>
+</body>
+</html>
