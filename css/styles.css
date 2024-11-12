@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana,Tahoma,Arial, Helvetica, sans-serif; 
+    margin: 10px;
+    padding: 5px;
+}
+
+body {
+    text-align: center;
+    background-color: lightgray;
+    /* line-height: 40px; */
+    font-family: Verdana,Tahoma,Arial, Helvetica, sans-serif; 
+    background-image: url("../img/cerati_ahi_vamos.jpg");
+}
+
+.nav {
+    background-color: lightblue; 
+    list-style-type: none;
+    text-align: center;
+    border: 5px black solid;
+  }
+  
+  nav ul {
+    background-color: lightblue; 
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    background-color: lightblue;
+  }
+
+  h1 {
+    text-align: center;
+    color: lightblue;
+    background-color: blue;
+  }
+
+  a {
+    color:darkcyan;
+  }
+
+  .itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+

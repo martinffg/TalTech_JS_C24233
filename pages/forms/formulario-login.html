@@ -4,27 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulario</title>
+  <title>Un lago en la web - Login</title>
 </head>
 
 <body>
   <header>
-    <h1>Formularios</h1>
+    <h1>Un lago en la web - Login</h1>
+    <h3>Ingresa tu usuario y contraseña para ingresar</h3>
   </header>
   <main>
     <section>
       <!-- ingresar el formulario que nos brinda el sitio de Formspree -->
       <!-- modify this form HTML and place wherever you want your form -->
-      <form action="https://formspree.io/f/xwpkkpao" method="POST">
+      <form action="https://formspree.io/f/xwpkkpao" method="POST" target="_blank">
+        <label>
+          Usuario:
+          <input type="text" name="Usuario" required>
+        </label>
+        <label>
+          Contraseña:
+          <input type="password" name="password" required>
+        </label>
         <label>
           Your email:
-          <input type="email" name="email">
+          <input type="email" name="email" required>
         </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
         <button type="submit">Send</button>
       </form>
     </section>

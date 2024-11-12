@@ -1,0 +1,170 @@
+[
+  {
+    "nombre": "Nada Personal",
+    "precio": 15,
+    "anio": 1985,
+    "urlDownload": "https://www.youtube.com/watch?v=ko24BZXdK8c",
+    "urlImg": "../img/nada_personal.jpg"
+  },
+  {
+    "nombre": "Signos",
+    "precio": 15,
+    "anio": 1986,
+    "urlDownload": "https://www.youtube.com/watch?v=PwmNExAF1zg",
+    "urlImg": "../img/signos.jpg"
+  },
+  {
+    "nombre": "Soda Stereo",
+    "precio": 15,
+    "anio": 1984,
+    "urlDownload": "https://www.youtube.com/watch?v=PwmNExAF1zg",
+    "urlImg": "../img/soda_stereo.jpg"
+  },
+  {
+    "nombre": "Doble Vida",
+    "precio": 15,
+    "anio": 1988,
+    "urlDownload": "https://www.youtube.com/watch?v=3TB0vkRalrQ&pp=ygUZZG9ibGUgdmlkYSBkaXNjbyBjb21wbGV0bw%3D%3D",
+    "urlImg": "../img/doble_vida.jpg"
+  },
+  {
+    "nombre": "Dynamo",
+    "precio": 20,
+    "anio": 1992,
+    "urlDownload": "https://www.youtube.com/watch?v=ofPx2dQmj_Y&pp=ygUVZHluYW1vIGRpc2NvIGNvbXBsZXRv",
+    "urlImg": "../img/dynamo.jpg"
+  },
+  {
+    "nombre": "Me verás volver",
+    "precio": 20,
+    "anio": 60,
+    "urlDownload": "https://www.youtube.com/watch?v=5lLOkwXM9_0&list=PLWVo2tank-zwHeQOeJq0W_4VxspPeRq1i",
+    "urlImg": "../img/me_veras_volver.jpg"
+  },
+  {
+    "nombre": "DRAGON BALL Xenoverse 2",
+    "precio": 20,
+    "anio": 80,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/dragon-ball-xenoverse-2/bx03760d0qgn",
+    "urlImg": "../img/DRAGONBALLXenoverse2.jpg"
+  },
+  {
+    "nombre": "World of Warcraft: Cataclysm Classic",
+    "precio": 18,
+    "anio": 50,
+    "urlDownload": "https://wowclassic.blizzard.com/en-us/?utm_source=xbox&utm_campaign=xbox+placement",
+    "urlImg": "../img/WorldofWarcraftCataclysmClassic.jpg"
+  },
+  {
+    "nombre": "EA SPORTS College Football 25",
+    "precio": 18,
+    "anio": 85,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/ea-sports-college-football-25/9PDWR1VW0Z4R",
+    "urlImg": "../img/EASPORTSCollegeFootball25.jpg"
+  },
+  {
+    "nombre": "Max: The Curse of Brotherhood",
+    "precio": 12,
+    "anio": 70,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/max-the-curse-of-brotherhood/C0SFCF4PBRSZ/0001",
+    "urlImg": "../img/MaxTheCurseofBrotherhood.jpeg"
+  },
+  {
+    "nombre": "Assassins Creed Revelations",
+    "precio": 12,
+    "anio": 65,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/assassins-creed-revelations/BX2JJ48F0CKR/0001",
+    "urlImg": "../img/gallery-img1.png"
+  },
+  {
+    "nombre": "HELLBLADE II",
+    "precio": 12,
+    "anio": 45,
+    "urlDownload": "https://www.xbox.com/es-ar/games/store/senuas-saga-hellblade-ii/9pmbb7nghv95",
+    "urlImg": "../img/senuaSaga.png"
+  },
+  {
+    "nombre": "STARW WARS - Jedi Survivor",
+    "precio": 17,
+    "anio": 75,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/star-wars-jedi-survivor/9PGC82V0DXFS/0010",
+    "urlImg": "../img/starwarsJediSurvivor.png"
+  },
+  {
+    "nombre": "GOONS - LEYENDS & MAYHEM",
+    "precio": 17,
+    "anio": 60,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/goons-legends-mayhem/9P24MSSJB8F9/0010",
+    "urlImg": "../img/slider-img.png"
+  },
+  {
+    "nombre": "ELDEN RING - Shadow of the Erdtree",
+    "precio": 17,
+    "anio": 80,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/elden-ring-shadow-of-the-erdtree-edition/9PMHP6JSXGDH/0010",
+    "urlImg": "../img/eldenRing.png"
+  },
+  {
+    "nombre": "Final Fantasy XIV Online",
+    "precio": 16,
+    "anio": 50,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/final-fantasy-xiv-online-free-trial/9NGN7D8GJN02/0010",
+    "urlImg": "../img/finalFantasyXIV.png"
+  },
+  {
+    "nombre": "Fornite",
+    "precio": 16,
+    "anio": 55,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/fortnite/BT5P2X999VH2/0001",
+    "urlImg": "../img/gallery-img3.png"
+  },
+  {
+    "nombre": "HITMAN World of Assassination 1",
+    "precio": 16,
+    "anio": 70,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/hitman-world-of-assassination-part-one/9NT2824TW8VR/0010",
+    "urlImg": "../img/HITMANWorldofAssassinationPartOne.jpeg"
+  },
+  {
+    "nombre": "Dirt Racing 2023 Ultimate Edition",
+    "precio": 9,
+    "anio": 45,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/world-of-outlaws-dirt-racing-2023-ultimate-edition/9MW7D0DJ065Z/0010",
+    "urlImg": "../img/DirtRacing2023.jpeg"
+  },
+  {
+    "nombre": "World War Z",
+    "precio": 9,
+    "anio": 75,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/world-war-z/BWQ5FC9WDJ6H/0001",
+    "urlImg": "../img/WorldWarZ.jpeg"
+  },
+  {
+    "nombre": "Mortal Kombat 11",
+    "precio": 11,
+    "anio": 60,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/mortal-kombat-11/BTC0L0BW6LWC/0001",
+    "urlImg": "../img/MortalKombat11.jpeg"
+  },
+  {
+    "nombre": "Forza Horizon 5",
+    "precio": 11,
+    "anio": 80,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/forza-horizon-5/9NNX1VVR3KNQ/0010",
+    "urlImg": "../img/ForzaHorizon5.jpeg"
+  },
+  {
+    "nombre": "Zombie Army 4: Dead War",
+    "precio": 11,
+    "anio": 40,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/zombie-army-4-dead-war/9PLSCHRN5715/0010",
+    "urlImg": "../img/ZombieArmy4DeadWar.jpeg"
+  },
+  {
+    "nombre": "Among Us",
+    "precio": 10,
+    "anio": 70,
+    "urlDownload": "https://www.xbox.com/es-AR/games/store/among-us/9NG07QJNK38J/0010",
+    "urlImg": "../img/AmongUs.jpeg"
+  }
+]

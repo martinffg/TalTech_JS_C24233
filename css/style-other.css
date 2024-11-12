@@ -1,0 +1,563 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+
+}
+body{
+    text-decoration: none;
+    list-style: none;
+}
+h1 {
+  display:inline-block;
+  
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.navBar{
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+.headerLinks {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+}
+.headerLinks li{
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.headerLinks li a{
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.headerLinks li a:hover{
+  background-color: #107c10;
+  color: white;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 45px);
+}
+.contenido img {
+	height:100%;
+}
+.image-contenido {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  top: 38%;
+  right: 4rem;
+  width: 38%;
+  color: white;
+  z-index: 1;
+  font-weight: lighter;
+}
+.posicionamiento {
+  position: absolute;
+  right: 10%;
+}
+.relative {
+  position: relative;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+.botones{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    justify-content: center;
+    margin: 8rem auto;
+    gap: 3rem;
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #107c10;
+}
+.btn-container .btn{
+    height: 100px;
+}
+.btn-container:hover .btn{
+    animation: ring 20s linear infinite;
+}
+.btn-container h3{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.gallery-container{
+    width: 90vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    gap: 10px;
+}
+.gallery-container img{
+    width: 100%;
+    height: 100%;
+}
+.gallery-left{
+    width: 100%;
+
+}
+.gallery-right{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.gallery-right img{
+    width: 100%;
+    height: 100%;
+
+}
+.games{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.games img{
+	object-fit:cover
+}
+.games:hover .game-description{
+    bottom: 0px;
+    height: 200px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.0) 0%,
+      rgb(0, 0, 0) 100%
+    );
+}
+.game-description{
+    width: 100%;
+    position: absolute;
+    bottom: -200px;
+    left: 0px;
+    color: #fff;
+    transition: .3s all ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+}
+.carouselContainer{
+    width: 90vw;
+    margin: 0 auto;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  gap: 5px;
+  background-color: #DDD;
+  padding: 2px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.521);
+  text-align: center;
+  padding: 2 0;
+  font-size: 20px;
+}
+.carousel-indicators{
+	bottom:-60px !important;
+}
+.carousel-inner img {
+  width: 34vw;
+  height: 100%;
+}
+
+.bloqueDecorativo {
+  width: 33vw;
+  height: 15vh;
+}
+
+.bloqueEtiqueta {
+  display: block;
+  width: 44vw;
+  height: 12vh;
+  text-align: center;
+}
+.bloqueEtiqueta a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+.bloqueEtiqueta a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.amarillo {
+  background-color: rgb(238, 255, 0);
+}
+
+.blanco {
+  background-color: rgb(255, 2555, 255);
+}
+
+.imgCarousel {height: 580px !important;object-fit: cover;}
+
+#carouselInventario,#carouselVentas {
+  width: 33vw;
+  height: 518px;
+}
+
+#carouselInventarioPrevio,#carouselVentasPrevio {
+  width: 33vw;
+}
+
+#carouselInventarioPosterior,#carouselVentasPosterior {
+  width: 33vw;
+}
+#etiquetaVentas{
+    width: 90vw;
+    margin: 10px auto 20px;
+}
+#banner {
+	position:relative;
+	margin: 2rem 0;
+	font: 50px sans-serif;
+	color:white;
+	height: 96vh;
+	text-align: center;
+	background-image: url('../assets/banner.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#banner p{
+	width: 45%;
+	position:absolute;
+	top: 36%;
+	right: 0rem;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: #555555;
+  color: white;
+}
+.footerBox{
+  width: 95%;
+  padding: 40px 30px 50px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 6fr  1fr;
+  gap: 1rem;
+}
+.groupsContainer{
+  display: flex;
+  gap: 20px;
+}
+.group{
+  width: calc(55% / 4);
+}
+.group ul {
+  padding: 0;
+}
+.group ul li{
+  list-style: none;
+  margin: 3px 0;
+}
+.group ul li a{
+  text-decoration: none;
+  color: white;
+}
+.group ul li a:hover{
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.group h3{
+  font-size: 16px;
+}
+.group ul li a{
+  font-size: 13px;
+  margin: 20px 0;
+}
+.footerLabel{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+  height: 40px;
+}
+.logolink img{
+  height: 120px;
+}
+.socialMedia{
+  width: 70%;
+  margin: 0 auto;
+  margin-left: 8rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.socialMedia a { 
+  height: 20px;
+}
+.socialMedia a img{ 
+  width: 100%;
+  height: 100%;
+
+}
+.footerLabel p{
+ margin: 0;
+ font-size: 14px;
+ font-weight: 400;
+}
+.mobileElement{
+  display: none;
+}
+@keyframes ring {
+
+	0% {
+		transform: rotate(0deg);
+	}
+
+	1.5% {
+		transform: rotate(30deg);
+	}
+
+	2.5% {
+		transform: rotate(-25deg);
+	}
+
+	3.75% {
+		transform: rotate(20deg);
+	}
+
+	5.15% {
+		transform: rotate(-10deg);
+	}
+
+	6.65% {
+		transform: rotate(5deg);
+	}
+
+	8.0% {
+		transform: rotate(-2deg);
+	}
+
+	10.0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+
+}
+@media screen and (max-width: 768px) {
+  .mobileElement{
+    display: block;
+  }
+  .desktopElement{
+    display: none;
+  }
+  .headerLinksMobile{
+    display: block;
+  }
+  .headerLinksMobile{
+    top: 55px;
+    left: -120%;
+    width: 100vw;
+    position: absolute;
+    z-index: 20;
+    height: 100vh;
+    background: white;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: .3s all ease-in;
+  }
+  .headerLinksMobile li{
+    list-style: none;
+    border-top: 1px solid #cacaca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .headerLinksMobile li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .headerLinksMobile li a:hover{
+    background-color: #107c10;
+    color: white;
+  }
+  #menu{
+    height: 20px;
+  }
+#banner{background-size: cover;height: 74vh;background-position: left;}
+  .no-scroll {
+    overflow: hidden;
+}
+  .navBarMobile{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    position: relative;
+  }
+  .menuMobileActive {
+    display: flex;
+    left: -20px;
+}
+  .image-text{
+    width: 85%;
+    top: 22%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    text-shadow: 4px 4px 12px black;
+  }
+  .botones{
+    grid-template-columns: 1fr;
+    width: 70%;
+  }
+  .bloqueEtiqueta {
+    width: 90vw;
+  }
+  .carouselContainer{
+    flex-direction: column !important;
+  }
+  #carouselInventarioPrevio,
+  #carouselVentasPrevio,
+  #carouselInventarioPosterior,
+  #carouselVentasPosterior,
+  #carouselInventario,
+  #carouselVentas,
+  .carouselContainer  {
+    height: auto;
+    width: 100vw;
+  }
+  .carousel-caption,
+  .carousel-indicators{
+    bottom: 0px !important;
+  }
+  #banner p{
+    position: absolute;
+    width: 73%;
+    height: auto;
+    right: 0;
+    left: 0;
+    top: unset;
+    bottom: 65px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .gallery-container{
+    flex-direction: column;
+    height: auto;
+  }
+  .game-description{
+    display: none;
+  }
+  .groupsContainer{
+    flex-direction: column;
+  }
+	.group {
+		border-top:1px solid 
+	}
+	.group:first-child {
+		border-top:none;
+		padding-top: 0px;
+	}
+	.group h3 {
+    font-size: 20px;
+}
+	.group ul li a{
+    font-size: 14px;
+}
+  .group{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerBox{
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 40px 0 50px;
+  }
+  .logolink img{
+    height: 80px;
+  }
+  .logoFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .socialMedia{
+    width: 50%;
+    margin:0;
+    margin-top: 20px;
+  }
+  .footerLabel p {
+    font-size: 12px;
+  }
+	.group ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}

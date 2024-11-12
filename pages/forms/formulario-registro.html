@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <title>Un lago en la web - Registro</title>
 </head>
 
 <body>
     <h2>Formulario de registro</h2>
-    <form action="show-data.html" target="_blank">
+    <h3>Dejanos tus datos de contacto para incluirte en nuestra lista de difusión</h3>
+    <form action="https://formspree.io/f/xwpkkpao" method="POST" target="_blank">
         <fieldset>
             <legend>Datos personales</legend>
             <label for="firstname">Nombre: </label>
@@ -37,32 +38,32 @@
             </p>
         </fieldset>
         <fieldset>
-            <legend>Conocimientos</legend>
-            <p> Conocimientos previos: (checkbox)
-                <input type="checkbox" name="conocimientos" value="HTML"> HTML
-                <input type="checkbox" name="conocimientos" value="CSS"> CSS
-                <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
-                <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
-                <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
-                <input type="checkbox" name="conocimientos" value="Python"> Python
-                <input type="checkbox" name="conocimientos" value="Django"> Django
+            <legend><b>Contanos sobre tus gustos...</b></legend>
+            <p>¿Cuál es tu disco preferido?:
+                <input type="checkbox" name="discos" value="Colores Santos"> Colores Santos
+                <input type="checkbox" name="discos" value="Amor amarillo"> Amor amarillo
+                <input type="checkbox" name="discos" value="Bocanada"> Bocanada
+                <input type="checkbox" name="discos" value="Episodios Sinfonicos"> Episodios Sinfonicos
+                <input type="checkbox" name="discos" value="Siempre es hoy"> Siempre es hoy
+                <input type="checkbox" name="discos" value="Ahí vamos"> Ahí vamos
+                <input type="checkbox" name="discos" value="Fuerza natural"> Fuerza natural
             </p>
-            <label for="estudios">Estudios: (Select)</label>
-            <select id="estudios" name="estudios">
-                <option value="primaria">Primaria</option>
-                <option value="secundaria">Secundaria</option>
-                <option value="terciario">Terciario</option>
-                <option value="universitario">Universitario</option>
+            <label for="etapa">¿Qué etapa de su carrera te gusta más?</label>
+            <select id="etapa" name="etapa">
+                <option value="Soda Stereo">Soda Stereo</option>
+                <option value="Solista">Solista</option>
+                <option value="Colaboraciones">Colaboraciones con otros artistas</option>
+                <option value="Películas">Sus videoclips y películas</option>
             </select>
+            <br><br>
+            <label for="comentarios">Dejanos tus comentarios:</label> <textarea name="comentarios" rows="5"
+                cols="100"></textarea>
+            <br>
         </fieldset>
-
         <br>
-        <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="5" cols="30"></textarea>
-        <br><br>
         <input type="submit" value="Enviar">
         <button type="reset">Reset</button>
     </form>
-    <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
 </body>
 
 </html>
