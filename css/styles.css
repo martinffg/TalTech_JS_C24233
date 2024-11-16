@@ -1,7 +1,5 @@
 * {
     font-family: Verdana,Tahoma,Arial, Helvetica, sans-serif; 
-    /* margin: 0.5vw;
-    padding: 5px; */
 }
 
 #bodyIndex {
@@ -29,14 +27,29 @@
 
 
 .ceratiImg {
-  width: 21vw;
-  height: 20vh;
+  width: 100%;
+  height: 25vh;
 }
 
-.ceratInfinitoImg {
-  width: 21vw;
+.sodaImg {
+  width: 100%;
   height: 33vh;
-  background-image: url("../img/ceratiInfinito2.jpg");
+}
+
+.bloquevideo {
+  width:100%;
+  height: auto;
+  /* height:25vh; */
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  object-fit: fill;
+}
+
+
+.ceratInfinitoImg {
+  width: 100%;
+  height: 33vh;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -44,14 +57,13 @@
 }
 
 .mapa {
-width:21vw;
-height:34vh;
+  width:100%;
+  height:25vh;
 }
 
 #banner-titulo {
   background-color: rgba(61, 67, 70, 0.911); 
   list-style-type: none;
-  /* border: 2px black solid; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,7 +76,6 @@ height:34vh;
 #contacto-frame {
   background-color: rgba(61, 67, 70, 0); 
   list-style-type: none;
-  /* border: 2px black solid; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,17 +152,17 @@ height:34vh;
     color: orange;
     font-size:small;
     font-stretch: expanded;
-    line-height: 4vh;
+    /* line-height: 4vh; */
   }
 
   .noticiasOnline {
-    width:21vw;
-    height:75vh;
+    width:100%;/*21vw; */
+    height:50vh;
   }
 
   .biografiaOficial {
-    width:21vw;
-    height:75vh;
+    width:100%;
+    height:50vh;
   }
 
   a {
@@ -287,5 +298,82 @@ height:34vh;
       align-items: center;
       height: 55px;
       position: relative;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .bloquevideo {
+      width:100%;
+      height: auto;
+      max-height: 28vh;
+      box-sizing: border-box;
+      padding: 0;
+      border: 0;
+      object-fit: fill;
+    }
+  }
+
+  /* para dispositivos muy grandes o con alta definición */
+  @media screen and (min-width: 1300px) {
+    .bloquevideo {
+      width:100%;
+      height: auto;
+      max-height: 28vh;
+      box-sizing: border-box;
+      padding: 0;
+      border: 0;
+      object-fit: fill;
+    }
+
+    /* .bloqueaudio {
+      display: none;
+    } */
+
+    .mapa {
+      width:100%;
+      height:30vh;
+    }
+  }  
+
+  @media screen and (min-width: 1450px) {
+    .bloquevideo {
+      width:100%;
+      height: auto;
+      max-height: 28vh;
+      box-sizing: border-box;
+      padding: 0;
+      border: 0;
+      object-fit: fill;
+    }
+
+    /* .bloqueaudio {
+      display: none;
+    } */
+
+    .mapa {
+      width:100%;
+      height:24vh;
+    }
+  }  
+
+  @media screen and (min-width: 1600px) {
+    .bloquevideo {
+      width:100%;
+      height: auto;
+      max-height: 28vh;
+      box-sizing: border-box;
+      padding: 0;
+      border: 0;
+      object-fit: fill;
+    }
+
+    .bloqueaudio {
+      display: none;
+    }
+
+    .mapa {
+      width:100%;
+      height:24vh;
     }
   }

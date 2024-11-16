@@ -29,7 +29,8 @@ button {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(auto-fit,4);
   grid-gap: 1rem;
   background-color: rgb(21, 255, 0);
   border: 1px solid black;
@@ -49,9 +50,7 @@ button {
   grid-row-end: 3;
   grid-column-end: 2;
 }
-/*
-inicio comentarios
-*/
+
 .container_comments {
   margin: 0 auto;
   display: grid;
@@ -83,7 +82,7 @@ inicio comentarios
 
 .cont {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   grid-template-areas: 
   'header header header header'
@@ -94,7 +93,8 @@ inicio comentarios
 }
 
 .cont > div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: 0;
   /* ACA SE QUITAN LOS BORDES DE LAS CAJAS. */
 }
 
@@ -162,14 +162,14 @@ inicio comentarios
     grid-template-areas:
       'header'
       'title' 
-      'footer'
+      'inicio'
+      'novedades'
       'ubicacion' 
       'sidebar'
-      'inicio'
-      'seccion1'
-      'novedades' 
       'sarasa'
+      'seccion1'
       'seccion2'
+      'footer'
       ;
   }
 
@@ -214,6 +214,20 @@ inicio comentarios
       'footer footer'
       ;
   }
+}
+
+@media (width > 720px) {
+  body {
+    background-color: lightgreen;
+  }
+  .item_aside {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    height: 10vh;
+  }
+  
 }
 
   
