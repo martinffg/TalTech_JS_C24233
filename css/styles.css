@@ -23,6 +23,11 @@
   text-align: center;
   background-color: lightgray;
   line-height: 1vh;
+  background-image: url("../img/ceratiRockero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
 }
 
 
@@ -77,13 +82,25 @@
   background-color: rgba(61, 67, 70, 0); 
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
+  line-height: 2vh;
   width: 100%;
   height: 100vh;
+  list-style-type: none;
+
   /* padding-left: 2vw;
   padding-right: 2vw; */
 }
+
+.sinPuntos {
+  list-style-type: none;
+}
+
+div > b {
+  color:chartreuse;
+}
+
 
   .navHeader {
     background-color: rgba(61, 67, 70, 0.911); 
@@ -199,7 +216,7 @@
     padding: 2 0;
     font-size: 2em;
   }
-  
+
   @keyframes ring {
   
     0% {
