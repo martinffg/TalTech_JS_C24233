@@ -35,136 +35,164 @@
     "urlImg": "../img/dynamo.jpg"
   },
   {
-    "nombre": "Me verás volver",
+    "nombre": "Gira Me verás volver",
     "precio": 20,
-    "anio": 60,
+    "anio": 2008,
     "urlDownload": "https://www.youtube.com/watch?v=5lLOkwXM9_0&list=PLWVo2tank-zwHeQOeJq0W_4VxspPeRq1i",
     "urlImg": "../img/me_veras_volver.jpg"
   },
   {
-    "nombre": "DRAGON BALL Xenoverse 2",
+    "nombre": "Confort y Música..",
     "precio": 20,
-    "anio": 80,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/dragon-ball-xenoverse-2/bx03760d0qgn",
-    "urlImg": "../img/DRAGONBALLXenoverse2.jpg"
+    "anio": 1996,
+    "urlDownload": "https://www.youtube.com/watch?v=Huqf4UPuAFc",
+    "urlImg": "../img/ConfortyMusicaParaVolar.jpg"
   },
   {
-    "nombre": "World of Warcraft: Cataclysm Classic",
+    "nombre": "Canción Animal",
     "precio": 18,
-    "anio": 50,
-    "urlDownload": "https://wowclassic.blizzard.com/en-us/?utm_source=xbox&utm_campaign=xbox+placement",
-    "urlImg": "../img/WorldofWarcraftCataclysmClassic.jpg"
+    "anio": 1990,
+    "urlDownload": "https://www.youtube.com/watch?v=jzLVaylmbJU",
+    "urlImg": "../img/cancion_animal.jpg"
   },
   {
-    "nombre": "EA SPORTS College Football 25",
+    "nombre": "Ruido Blanco",
     "precio": 18,
-    "anio": 85,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/ea-sports-college-football-25/9PDWR1VW0Z4R",
-    "urlImg": "../img/EASPORTSCollegeFootball25.jpg"
+    "anio": 1987,
+    "urlDownload": "https://www.youtube.com/watch?v=nAkU692zf_w",
+    "urlImg": "../img/ruido_blanco.jpg"
   },
   {
-    "nombre": "Max: The Curse of Brotherhood",
+    "nombre": "Sueño Stereo",
     "precio": 12,
-    "anio": 70,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/max-the-curse-of-brotherhood/C0SFCF4PBRSZ/0001",
-    "urlImg": "../img/MaxTheCurseofBrotherhood.jpeg"
+    "anio": 1995,
+    "urlDownload": "https://www.youtube.com/watch?v=hb21DFZF7Pw",
+    "urlImg": "../img/suenio_stereo.jpg"
   },
   {
-    "nombre": "Assassins Creed Revelations",
+    "nombre": "Una p. de la euforia",
     "precio": 12,
-    "anio": 65,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/assassins-creed-revelations/BX2JJ48F0CKR/0001",
-    "urlImg": "../img/gallery-img1.png"
+    "anio": 2004,
+    "urlDownload": "https://www.youtube.com/watch?v=dIQanvamlXQ",
+    "urlImg": "../img/una_parte_de_la_euforia.jpg"
   },
   {
-    "nombre": "HELLBLADE II",
+    "nombre": "El últ. concierto A",
     "precio": 12,
-    "anio": 45,
-    "urlDownload": "https://www.xbox.com/es-ar/games/store/senuas-saga-hellblade-ii/9pmbb7nghv95",
-    "urlImg": "../img/senuaSaga.png"
+    "anio": 1997,
+    "urlDownload": "https://www.youtube.com/watch?v=OL_Ga46VHog",
+    "urlImg": "../img/el_ultimo_concierto_A.jpg"
   },
   {
-    "nombre": "STARW WARS - Jedi Survivor",
+    "nombre": "El últ. concierto B",
     "precio": 17,
-    "anio": 75,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/star-wars-jedi-survivor/9PGC82V0DXFS/0010",
-    "urlImg": "../img/starwarsJediSurvivor.png"
+    "anio": 1997,
+    "urlDownload": "https://www.youtube.com/watch?v=z6YmIBIYlOI",
+    "urlImg": "../img/el_ultimo_concierto_B.jpg"
   },
   {
-    "nombre": "GOONS - LEYENDS & MAYHEM",
+    "nombre": "Me verás volver",
     "precio": 17,
-    "anio": 60,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/goons-legends-mayhem/9P24MSSJB8F9/0010",
-    "urlImg": "../img/slider-img.png"
+    "anio": 2007,
+    "urlDownload": "https://www.youtube.com/watch?v=_visFlIG2q4",
+    "urlImg": "../img/me_veras_volver_disco.jpg"
   },
   {
-    "nombre": "ELDEN RING - Shadow of the Erdtree",
+    "nombre": "Languis",
     "precio": 17,
-    "anio": 80,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/elden-ring-shadow-of-the-erdtree-edition/9PMHP6JSXGDH/0010",
-    "urlImg": "../img/eldenRing.png"
+    "anio": 1989,
+    "urlDownload": "https://www.youtube.com/watch?v=9K8EGNZj5Eo",
+    "urlImg": "../img/languis.jpg"
   },
   {
-    "nombre": "Final Fantasy XIV Online",
+    "nombre": "Rex Mix",
     "precio": 16,
-    "anio": 50,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/final-fantasy-xiv-online-free-trial/9NGN7D8GJN02/0010",
-    "urlImg": "../img/finalFantasyXIV.png"
+    "anio": 1991,
+    "urlDownload": "https://www.youtube.com/watch?v=2lC0KHEjpCU",
+    "urlImg": "../img/rex_mix.jpg"
   },
   {
-    "nombre": "Fornite",
+    "nombre": "Sep7imo Día",
     "precio": 16,
-    "anio": 55,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/fortnite/BT5P2X999VH2/0001",
-    "urlImg": "../img/gallery-img3.png"
+    "anio": 2022,
+    "urlDownload": "https://www.youtube.com/watch?v=VpNTdI0xFY4",
+    "urlImg": "../img/sep7imo_dia.jpg"
   },
   {
-    "nombre": "HITMAN World of Assassination 1",
+    "nombre": "Bocanada",
     "precio": 16,
-    "anio": 70,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/hitman-world-of-assassination-part-one/9NT2824TW8VR/0010",
-    "urlImg": "../img/HITMANWorldofAssassinationPartOne.jpeg"
+    "anio": 1999,
+    "urlDownload": "https://www.youtube.com/watch?v=IMw21ADHgJI",
+    "urlImg": "../img/bocanada.jpg"
   },
   {
-    "nombre": "Dirt Racing 2023 Ultimate Edition",
+    "nombre": "Amor Amarillo",
+    "precio": 16,
+    "anio": 1993,
+    "urlDownload": "https://www.youtube.com/watch?v=WlracwwxpPM",
+    "urlImg": "../img/amor_amarillo.jpg"
+  },
+  {
+    "nombre": "Fuerza Natural",
     "precio": 9,
-    "anio": 45,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/world-of-outlaws-dirt-racing-2023-ultimate-edition/9MW7D0DJ065Z/0010",
-    "urlImg": "../img/DirtRacing2023.jpeg"
+    "anio": 2009,
+    "urlDownload": "https://www.youtube.com/watch?v=9gkUnFGsHtE",
+    "urlImg": "../img/fuerza_natural.jpg"
   },
   {
-    "nombre": "World War Z",
+    "nombre": "Siempre es Hoy",
     "precio": 9,
-    "anio": 75,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/world-war-z/BWQ5FC9WDJ6H/0001",
-    "urlImg": "../img/WorldWarZ.jpeg"
+    "anio": 2002,
+    "urlDownload": "https://www.youtube.com/watch?v=L5VkdSx3h8A",
+    "urlImg": "../img/siempre_es_hoy.jpg"
   },
   {
-    "nombre": "Mortal Kombat 11",
+    "nombre": "Ahí Vamos",
     "precio": 11,
-    "anio": 60,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/mortal-kombat-11/BTC0L0BW6LWC/0001",
-    "urlImg": "../img/MortalKombat11.jpeg"
+    "anio": 2006,
+    "urlDownload": "https://www.youtube.com/watch?v=2eW4gfPP7j8",
+    "urlImg": "../img/ahi_vamos.jpg"
   },
   {
-    "nombre": "Forza Horizon 5",
+    "nombre": "Colores Santos",
     "precio": 11,
-    "anio": 80,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/forza-horizon-5/9NNX1VVR3KNQ/0010",
-    "urlImg": "../img/ForzaHorizon5.jpeg"
+    "anio": 1992,
+    "urlDownload": "https://www.youtube.com/watch?v=RzZf9uRMCsE",
+    "urlImg": "../img/colores_santos.jpg"
   },
   {
-    "nombre": "Zombie Army 4: Dead War",
+    "nombre": "+Bien",
     "precio": 11,
-    "anio": 40,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/zombie-army-4-dead-war/9PLSCHRN5715/0010",
-    "urlImg": "../img/ZombieArmy4DeadWar.jpeg"
+    "anio": 2001,
+    "urlDownload": "https://www.youtube.com/watch?v=Ex80WUkDFSU",
+    "urlImg": "../img/mas_bien.jpg"
   },
   {
-    "nombre": "Among Us",
+    "nombre": "11 Epis. Sinfónicos",
     "precio": 10,
-    "anio": 70,
-    "urlDownload": "https://www.xbox.com/es-AR/games/store/among-us/9NG07QJNK38J/0010",
-    "urlImg": "../img/AmongUs.jpeg"
+    "anio": 2001,
+    "urlDownload": "https://www.youtube.com/watch?v=PGBET5f7DoI",
+    "urlImg": "../img/11_episodios_sinfonicos.jpg"
+  },
+  {
+    "nombre": "Revers. S. es Hoy",
+    "precio": 10,
+    "anio": 2003,
+    "urlDownload": "https://www.youtube.com/watch?v=LfzhmnClaDk",
+    "urlImg": "../img/reversiones_siempre_es_hoy.jpg"
+  },
+  {
+    "nombre": "Canc. Eleg. 93-04",
+    "precio": 10,
+    "anio": 2004,
+    "urlDownload": "https://www.youtube.com/watch?v=sIIpdAjLicU",
+    "urlImg": "../img/canciones_elegidas.jpg"
+  },
+  {
+    "nombre": "Infinito",
+    "precio": 10,
+    "anio": 2015,
+    "urlDownload": "https://www.youtube.com/playlist?list=PLI6kLIhBBwmTLvC9t144SNfyp31WQqWQm",
+    "urlImg": "../img/infinito.jpg"
   }
 ]

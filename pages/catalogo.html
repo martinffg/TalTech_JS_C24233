@@ -1,48 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catalogo de Productos en Tienda</title>
-  <link rel="stylesheet" href="../css/style-other.css" />
+  <title>Catálogo de Productos en Tienda</title>
   <link rel="stylesheet" href="../css/catalogo.css" />
+  <script src="https://kit.fontawesome.com/22e400c490.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
 </head>
 
-<body>
+<body class="fondo_body_catalogo">
   <header class="header">
     <div class="navBar desktopElement">
-      <a href="#"><img src="../img/cerati_ahi_vamos.jpg" alt="Logo Cerati Ahi´Vamos" id="logo-web"
-          style="width: 6vw;"></a>
       <ul class="headerLinks">
         <li><a href="../index.html">Inicio</a></li>
+        <li><a href="https://www.youtube.com/watch?v=R0nFqFMA2qE">Shows</a></li>
         <li><a href="../pages/contacto.html">Contacto</a></li>
+        <li><a href="../pages/forms/formulario-registro.html">Registrarse</a></li>
         <li><a href="../pages/forms/formulario-login.html">Login</a></li>
-        <li><a href="../pages/forms/formulario-registro.html">Register</a></li>
       </ul>
     </div>
     <div class="navBarMobile mobileElement">
-      <a href="#"><img src="../img/cerati_ahi_vamos.jpg" alt="Logo Cerati Ahi´Vamos" id="logo-web"
-          style="width: 6vw;"></a>
       <img id="menu" src="../img/menu.png" alt="menu">
-      <ul id="nav" class="headerLinksMobile">
+      <ul class="headerLinksMobile">
         <li><a href="../index.html">Inicio</a></li>
+        <li><a href="https://www.youtube.com/watch?v=R0nFqFMA2qE">Shows</a></li>
         <li><a href="../pages/contacto.html">Contacto</a></li>
+        <li><a href="../pages/forms/formulario-registro.html">Registrarse</a></li>
         <li><a href="../pages/forms/formulario-login.html">Login</a></li>
-        <li><a href="../pages/forms/formulario-registro.html">Register</a></li>
       </ul>
     </div>
-    <div class="bloqueEtiqueta justify-content-center">
-      <h2><b>Bienvenidos a Nuestro Catálogo</b></h2>
-    </div>
   </header>
-  <section class="catalogo">
-    <div id="catalogo-container"></div>
-  </section>
-
+  <main>
+    <section class="bloqueEtiqueta">
+      <div>
+        <p><b>¡Bienvenidos a la Tienda Stereo!</b></p>
+      </div>
+    </section>
+    <section class="catalogo">
+      <div id="catalogo-container"></div>
+    </section>
+  </main>
+  <footer>
+    <nav class="navFooter">
+      <span><a href="http://www.cerati.com/">
+          <i class="fa-brands fa-web-awesome brand-icons"></i></a>
+      </span>
+      <span><a href="https://open.spotify.com/artist/1QOmebWGB6FdFtW7Bo3F0W">
+          <i class="fa-brands fa-spotify brand-icons"></i></a>
+      </span>
+      <span><a href="https://www.instagram.com/cerati/?hl=es">
+          <i class="fa-brands fa-instagram brand-icons"></i></a>
+      </span>
+      <span><a href="https://www.threads.net/@cerati?hl=es">
+          <i class="fa-brands fa-threads brand-icons"></i></a>
+      </span>
+      <span><a href="https://www.tiktok.com/@cerati?lang=en">
+          <i class="fa-brands fa-tiktok brand-icons"></i></a>
+      </span>
+      <span><a href="https://www.facebook.com/gustavocerati?locale=es_LA">
+          <i class="fa-brands fa-facebook-f brand-icons"></i></a>
+      </span>
+      <span><a href="https://www.youtube.com/channel/UCZuU_8S5VItTh-InZ0CV-rA">
+          <i class="fa-brands fa-youtube brand-icons"></i></a>
+      </span>
+      <span><a href="https://x.com/cerati?lang=es">
+          <i class="fa-brands fa-twitter brand-icons"></i></a>
+      </span>
+    </nav>
+  </footer>
   <script src="../js/catalogo_funciones.js"></script>
   <script src="../js/catalogo.js"></script>
-
 </body>
 
 </html>

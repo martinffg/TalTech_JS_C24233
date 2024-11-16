@@ -1,10 +1,10 @@
 // Si el sesionStorage es falso, redirecciona al login
 
-document.addEventListener("DOMContentLoaded", () => {
-  if (JSON.parse(localStorage.getItem("sesion")) == false) {
-    window.location.href = "../pages/login.html";
-  }
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   if (JSON.parse(localStorage.getItem("sesion")) == false) {
+//     window.location.href = "../pages/forms/formulario-login.html";
+//   }
+// });
 
 function insertarCard(producto, i, productos) {
     const card = crearCard(producto);
@@ -57,3 +57,11 @@ function insertarCard(producto, i, productos) {
     const container = document.querySelector('#catalogo-container');
     container.appendChild(card);
   }
+
+  const menuIcon = document.getElementById('menu');
+  const navMenu = document.getElementById('nav');
+
+  menuIcon.addEventListener('click', function() {
+    navMenu.classList.toggle('menuMobileActive');
+    document.body.classList.toggle('no-scroll');
+  });

@@ -5,103 +5,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/cerati_ahi_vamos.ico">
-    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/22e400c490.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../TFI/css/grid.css">
+    <link rel="stylesheet" href="../TFI/css/styles.css">
     <title>Un lago en la web</title>
 </head>
 
-<body>
-    <header>
-        <h1>Un lago en la web</h1><sub class="itim-regular">powered by Martox</sub>
-        <h2 class="itim-regular">El mural de Gustavo Cerati</h2>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="pages/catalogo.html">Catálogo</a>
-                </li>
-                <li>
-                    <a href="pages/shows.html">Shows</a>
-                </li>
-                <li>
-                    <a href="pages/rarezas.html">Rarezas</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="pages/forms/formulario-registro.html">Registrarse</a>
-                </li>
-                <li>
-                    <a href="pages/forms/formulario-login.html">Login</a>
-                </li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <aside></aside>
-
-    <main>
-
-        <section>
-            <img src="img/cerati_un_hombre alado.jpg" alt="Imagen de Cerati como Hombre Alado en Colores" width="1200"
-                height="800">
-        </section>
-        <section>
-            <audio controls preload loop>
-                <!--  loop preload autoplay muted son los atributos que tambien podría usar -->
-                <source src="media/Lago_en_el_Cielo.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
-        </section>
-        <section>
-            <video controls preload autoplay loop width="1200" height="800">
-                <source src="media/Spock_Greeting.mp4" type="audio/mp4">
-                Your browser does not support the video element.
-            </video>
-        </section>
-        <section>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6108916406874!2d-58.46152522373851!3d-34.58871095670679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5e33f48555f%3A0xcb7b7d097387f38c!2sMausoleum%20Gustavo%20Cerati!5e0!3m2!1sen!2sar!4v1728535265160!5m2!1sen!2sar"
-                width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" scrolling="auto">Mapa de la tumba de Gustavo
-                Cerati</iframe>
-        </section>
-
-    </main>
-    <footer>
-        <nav class="nav">
-
-            <!-- <span>
-                <img src="img/instagram.svg" alt="Logo de Instagram" width="50" height="50">
-            </span>
-
-            <span>
-                <img src="img/linkedin.svg" alt="Logo de LinkedIn" width="50" height="50">
-            </span> -->
-
-            <span><a href="https://www.instagram.com/">
-                    <i class="fa-brands fa-instagram" style="font-size: 36px;"></i></a>
-            </span>
-            <span></span><a href="https://www.facebook.com/">
-                <i class="fa-brands fa-facebook-f" style="font-size: 36px;"></i></a></span>
-            <span><a href="https://www.linkedin.com/">
-                    <i class="fa-brands fa-linkedin" style="font-size: 36px;"></i></a>
-            </span>
-            <span><a href="http://twitter.com/">
-                    <i class="fa-brands fa-twitter" style="font-size: 36px;"></i></a>
-            </span>
-
-
-        </nav>
-
-    </footer>
+<body id="bodyIndex">
+    <section>
+        <div class="cont">
+            <div class="grid_header">
+                <nav class="navHeader headerLinks">
+                    <div><a href="../TFI/index.html">Inicio</a></div>
+                    <div><a href="../TFI/pages/catalogo.html">Catálogo</a></div>
+                    <div><a href="https://www.youtube.com/watch?v=R0nFqFMA2qE">Shows</a></div>
+                    <div><a href="../TFI/pages/contacto.html">Contacto</a></div>
+                    <div><a href="../TFI/pages/forms/formulario-registro.html">Registrarse</a></div>
+                    <div><a href="../TFI/pages/forms/formulario-login.html">Login</a></div>
+                </nav>
+            </div>
+            <div class="grid_title">
+                <section id="banner-titulo">
+                    <div class="titleParagraph">
+                        <p>Un lago en la web</p>
+                    </div>
+                    <div class="titleParagraph">
+                        <p class="item-regular">El mural de Gustavo Cerati</p>
+                    </div>
+                </section>
+            </div>
+            <div class="grid_sidebar">
+                <div>
+                    <video controls preload autoplay loop muted width="100%" height="100%">
+                        <source src="media/puente.mp4" type="audio/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                </div>
+                <br>
+                <div>
+                    <video controls preload autoplay loop muted width="100%" height="100%">
+                        <source src="media/LaCiudadDeLaFuria.mp4" type="audio/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                </div>
+                <br>
+                <div>
+                    <audio controls preload loop>
+                        <!--  loop preload autoplay muted son los atributos que tambien podría usar -->
+                        <source src="media/Lago_en_el_Cielo.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+            <div class="grid_inicio">
+                <div>
+                    <img src="img/ceratiInfinito2.jpg" class="ceratInfinitoImg" alt="Imagen de Cerati Infinito">
+                </div>
+            </div>
+            <div class="grid_nove newsParagraph">
+                <p><b>Novedades:</b><br>
+                    Show de Monterrey disponible en Apple TV en HD:<br>
+                    "Fuerza Natural Tour | En vivo | Monterrey, MX, 2009", que fue editado el año pasado en formato CD
+                    doble + DVD, ya está disponible en video HD para alquiler o compra en la plataforma de Apple TV.</p>
+            </div>
+            <div class="grid_seccion1">
+                <div>
+                    <video controls preload autoplay loop muted width="100%" height="100%">
+                        <source src="media/LagoEnElCielo.mp4" type="audio/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                </div>
+            </div>
+            <div class="grid_sara">
+                <div class="cont_flex_in_grid">
+                    <iframe src="http://noticias.cerati.com/#contenido" class="noticiasOnline" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        scrolling="auto">Noticias de Gustavo Cerati</iframe>
+                </div>
+            </div>
+            <div class="grid_ubi">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6108916406874!2d-58.46152522373851!3d-34.58871095670679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5e33f48555f%3A0xcb7b7d097387f38c!2sMausoleum%20Gustavo%20Cerati!5e0!3m2!1sen!2sar!4v1728535265160!5m2!1sen!2sar"
+                        class="mapa" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" scrolling="auto">Mapa de la tumba de Gustavo
+                        Cerati</iframe>
+                </div>
+                <div>
+                    <img src="img/cerati_un_hombre alado.jpg" class="ceratiImg"
+                        alt="Imagen de Cerati como Hombre Alado en Colores">
+                </div>
+                <div>
+                    <img src="img/soda_fin_de_show.jpg" class="ceratiImg" alt="Imagen de Soda Fin de Show">
+                </div>
+            </div>
+            <div class="grid_seccion2">
+                <iframe src="http://cerati.com/biografia/#contenido" class="biografiaOficial" style="border:0;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    scrolling="auto">Biografía de Gustavo Cerati</iframe>
+            </div>
+            <div class="grid_footer">
+                <nav class="navfooter">
+                    <span><a href="http://www.cerati.com/">
+                            <i class="fa-brands fa-web-awesome brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://open.spotify.com/artist/1QOmebWGB6FdFtW7Bo3F0W">
+                            <i class="fa-brands fa-spotify brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://www.instagram.com/cerati/?hl=es">
+                            <i class="fa-brands fa-instagram brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://www.threads.net/@cerati?hl=es">
+                            <i class="fa-brands fa-threads brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://www.tiktok.com/@cerati?lang=en">
+                            <i class="fa-brands fa-tiktok brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://www.facebook.com/gustavocerati?locale=es_LA">
+                            <i class="fa-brands fa-facebook-f brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://www.youtube.com/channel/UCZuU_8S5VItTh-InZ0CV-rA">
+                            <i class="fa-brands fa-youtube brand-icon"></i></a>
+                    </span>
+                    <span><a href="https://x.com/cerati?lang=es">
+                            <i class="fa-brands fa-twitter brand-icon"></i></a>
+                    </span>
+                </nav>
+                <sub class="creditos">Powered by Martín F. Fernández Gamen</sub>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

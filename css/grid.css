@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightslategray;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: clamp(1rem, 4vw, 2rem);
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: beige;
+}
+
+button {
+  background-color: rgb(1, 32, 1);
+  border-radius: 4px;
+  margin: auto;
+  font-size: clamp(1rem, 4vw, 2rem);
+}
+  
+.container_grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  background-color: rgb(21, 255, 0);
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.container_grid div {
+  background-color: lightblue;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.item_aside {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+/*
+inicio comentarios
+*/
+.container_comments {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: column;
+}
+
+.container_comments div {
+  border: 1px solid orange;
+  border-radius: 4px;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+.item_com1 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+
+.item_com5 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-row-end: 4;
+  grid-column-end: 4;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-areas: 
+  'header header header header'
+  'title title title title'
+  'sidebar inicio novedades seccion1' 
+  'sidebar sarasa ubicacion seccion2' 
+  'footer footer footer footer';
+}
+
+.cont > div {
+  border: 1px solid black;
+  /* ACA SE QUITAN LOS BORDES DE LAS CAJAS. */
+}
+
+.grid_header {
+  grid-area: header;
+}
+
+.grid_title {
+  grid-area: title;
+  height: "6vh";
+}
+
+.grid_sidebar {
+  grid-area: sidebar;
+}
+
+.grid_inicio {
+  grid-area: inicio;
+}
+
+.grid_nove {
+  grid-area: novedades;
+}
+
+.grid_sara {
+  grid-area: sarasa;
+}
+
+.grid_ubi {
+  grid-area: ubicacion;
+} 
+
+.grid_seccion1 {
+  grid-area: seccion1;
+}
+
+.grid_seccion2 {
+  grid-area: seccion2;
+}
+
+.grid_footer {
+  grid-area: footer;
+}
+
+.cont_flex_in_grid {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.cont_flex_in_grid > div {
+  border: 1px solid black;
+}
+
+
+/*media queries*/
+/* se aplica hasta que la pantalla exceda los 720 px de ancho */
+
+@media ( 240px < width < 480px) {
+  body {
+    background-color: pink;
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
+  }
+  .cont {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header'
+      'title' 
+      'footer'
+      'ubicacion' 
+      'sidebar'
+      'inicio'
+      'seccion1'
+      'novedades' 
+      'sarasa'
+      'seccion2'
+      ;
+  }
+
+  .container_comments {
+    grid-template-columns: 1fr;
+  }
+  .item_com1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .item_com2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .item_com3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .item_com4 {
+    grid-area: 4 / 1 / 5 / 2; 
+  }
+  .item_com5 {
+    grid-area: 5 / 1 / 6 / 2; 
+  }
+  .item_com6 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+
+
+}
+
+@media (480px < width < 720px) {
+  body {
+    background-color: lightgreen;
+  }
+  .cont {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'header header'
+      'title title'
+      'sidebar ubicacion'
+      'inicio seccion1'
+      'novedades sarasa'
+      'seccion2 seccion2'
+      'footer footer'
+      ;
+  }
+}
+
+  
+
