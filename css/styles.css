@@ -255,6 +255,101 @@ div > b {
       transform: rotate(0deg);
     }
   }
+
+  @media screen and (max-width: 500px) {
+    
+    .bloqueaudio {
+      display: none;
+    }
+
+    .body {
+      font-size: xx-small;
+    }
+
+    .grid_nove .newsParagraph{
+      font-size: xx-small;
+      line-height: normal;      
+    }
+
+    .grid_nove{
+      font-size: xx-small;
+      line-height: normal;      
+    }
+
+    .navHeader {
+      background-color: rgba(61, 67, 70, 0.911); 
+      list-style-type: none;
+      text-align: center;
+      /* border: 2px black solid; */
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 6vh;
+      color: goldenrod;
+      margin: 0vw;
+      font-size: xx-small;
+    }
+
+    .mobileElement{
+      display: block;
+    }
+    .desktopElement{
+      display: none;
+    }
+    .headerLinksMobile{
+      display: block;
+    }
+    .headerLinksMobile{
+      top: 55px;
+      left: -120%;
+      width: 100vw;
+      position: absolute;
+      z-index: 20;
+      height: 100vh;
+      background: white;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: .3s all ease-in;
+    }
+    .headerLinksMobile li{
+      list-style: none;
+      border-top: 1px solid #cacaca;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .headerLinksMobile li a{
+      color: black;
+      text-decoration: none;
+      font-size: 2em;
+      padding: 2vw 0;
+      width: 100%;
+      text-align: center;
+    }
+    .headerLinksMobile li a:hover{
+      background-color: #107c10;
+      color: white;
+    }
+    #menu{
+      height: 20px;
+    }
+    .menuMobileActive {
+      display: flex;
+      left: -20px;
+    }
+    .navBarMobile{
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 55px;
+      position: relative;
+    }
+  }
   
   @media screen and (max-width: 768px) {
     .mobileElement{

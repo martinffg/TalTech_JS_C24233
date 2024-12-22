@@ -4,195 +4,223 @@
     "precio": 15,
     "anio": 1985,
     "urlDownload": "https://www.youtube.com/watch?v=ko24BZXdK8c",
-    "urlImg": "../img/nada_personal.jpg"
+    "urlImg": "../img/nada_personal.jpg",
+    "descripcion":"«Nada personal» es una canción y sencillo creada por Gustavo Cerati e interpretada por la banda argentina Soda Stereo. Fue lanzada como tema N.º 1 del segundo álbum de la banda, Nada personal, que salió a la venta en noviembre de 1985 bajo la disquera CBS Discos."
   },
   {
     "nombre": "Signos",
     "precio": 15,
     "anio": 1986,
     "urlDownload": "https://www.youtube.com/watch?v=PwmNExAF1zg",
-    "urlImg": "../img/signos.jpg"
+    "urlImg": "../img/signos.jpg",
+    "descripcion":"Signos es el tercer álbum de estudio de la banda Argentina Soda Stereo, publicado el 10 de noviembre de 1986. Fue producido por Soda Stereo. Es considerado por la mayoría de los críticos como el segundo mejor álbum de la banda, después de Canción animal, de 1990."
   },
   {
     "nombre": "Soda Stereo",
     "precio": 15,
     "anio": 1984,
     "urlDownload": "https://www.youtube.com/watch?v=PwmNExAF1zg",
-    "urlImg": "../img/soda_stereo.jpg"
+    "urlImg": "../img/soda_stereo.jpg",
+    "descripcion":"Soda Stereo es el título del álbum debut de estudio homónimo grabado por la banda de rock en español argentina Soda Stereo. El álbum fue lanzado al mercado bajo el sello discográfico CBS Discos el 27 de agosto de 1984. La producción de este álbum debut estuvo a cargo de Federico Moura, vocalista y líder de Virus."
   },
   {
     "nombre": "Doble Vida",
     "precio": 15,
     "anio": 1988,
     "urlDownload": "https://www.youtube.com/watch?v=3TB0vkRalrQ&pp=ygUZZG9ibGUgdmlkYSBkaXNjbyBjb21wbGV0bw%3D%3D",
-    "urlImg": "../img/doble_vida.jpg"
+    "urlImg": "../img/doble_vida.jpg",
+    "descripcion":"Doble vida es el cuarto álbum de estudio de la banda, grabado y editado en 1988. Producido por Carlos Alomar, este fue el segundo de los únicos 2 álbumes de Soda Stereo producidos por alguien fuera del grupo musical, siendo el otro Soda Stereo, el álbum debut, que fuera producido por Federico Moura de Virus."
   },
   {
     "nombre": "Dynamo",
     "precio": 20,
     "anio": 1992,
     "urlDownload": "https://www.youtube.com/watch?v=ofPx2dQmj_Y&pp=ygUVZHluYW1vIGRpc2NvIGNvbXBsZXRv",
-    "urlImg": "../img/dynamo.jpg"
+    "urlImg": "../img/dynamo.jpg",
+    "descripcion":"Dynamo es el sexto álbum de estudio de banda de rock latino Soda Stereo. Fue grabado y mezclado en el Estudio Supersónico, en Buenos Aires durante el año 1992. Es considerado por los fanáticos como uno de los mejores álbumes de estudio del grupo. El disco representa un cambio profundo de sonido con respecto a los álbumes previos."
   },
   {
     "nombre": "Gira Me verás volver",
     "precio": 20,
     "anio": 2008,
     "urlDownload": "https://www.youtube.com/watch?v=5lLOkwXM9_0&list=PLWVo2tank-zwHeQOeJq0W_4VxspPeRq1i",
-    "urlImg": "../img/me_veras_volver.jpg"
+    "urlImg": "../img/me_veras_volver.jpg",
+    "descripcion":"Es el último álbum grabado en vivo por Soda Stereo y reúne los mejores temas tocados durante la gira reencuentro de la banda por casi toda América a fines de 2007.  La Gira Me Verás volver tiene la particularidad de tener un estilo más rockero que otras giras en todas sus canciones."
   },
   {
     "nombre": "Confort y Música..",
     "precio": 20,
     "anio": 1996,
     "urlDownload": "https://www.youtube.com/watch?v=Huqf4UPuAFc",
-    "urlImg": "../img/ConfortyMusicaParaVolar.jpg"
+    "urlImg": "../img/ConfortyMusicaParaVolar.jpg",
+    "descripcion":"Comfort y música para volar es un álbum de la banda de rock latino Soda Stereo, lanzado el 25 de septiembre de 1996. En su primera edición, el álbum contiene siete canciones grabadas en vivo y otras cuatro en estudio. La segunda versión, en cambio, aparecida el 22 de enero de 2007, es la que contiene las 13 canciones que el grupo tocó en la sesión original."
   },
   {
     "nombre": "Canción Animal",
     "precio": 18,
     "anio": 1990,
     "urlDownload": "https://www.youtube.com/watch?v=jzLVaylmbJU",
-    "urlImg": "../img/cancion_animal.jpg"
+    "urlImg": "../img/cancion_animal.jpg",
+    "descripcion":"Es el quinto álbum de estudio de la banda. Fue publicado el 7 de agosto de 1990. El álbum fue grabado en Miami, entre junio y julio de 1990, bajo la producción de los músicos Gustavo Cerati y Zeta Bosio. Canción animal es reconocido como el mejor álbum de la banda a lo largo de su carrera, dejando huella no solo en la escena del rock argentino, sino en todo el rock latino en general."
   },
   {
     "nombre": "Ruido Blanco",
     "precio": 18,
     "anio": 1987,
     "urlDownload": "https://www.youtube.com/watch?v=nAkU692zf_w",
-    "urlImg": "../img/ruido_blanco.jpg"
+    "urlImg": "../img/ruido_blanco.jpg",
+    "descripcion":"Ruido blanco es el primer álbum en vivo de la banda de rock latino Soda Stereo, publicado el 1 de noviembre de 1987. Fue grabado en Argentina, Perú, Chile, México y Venezuela y editado en 1987 por la disquera CBS Discos. El álbum incluye canciones de Soda Stereo, Nada personal y Signos. Logró el puesto 5° de los 10 mejores álbumes en vivo del rock argentino por la Rolling Stone Argentina en 2007."
   },
   {
     "nombre": "Sueño Stereo",
     "precio": 12,
     "anio": 1995,
     "urlDownload": "https://www.youtube.com/watch?v=hb21DFZF7Pw",
-    "urlImg": "../img/suenio_stereo.jpg"
+    "urlImg": "../img/suenio_stereo.jpg",
+    "descripcion":"Sueño Stereo es el séptimo y último álbum de estudio. Fue lanzado el 29 de junio de 1995 y fue grabado en Supersónico, Buenos Aires por Eduardo Bergallo y mezclado en Matrix, Londres por Clive Goddard y Bergallo. El 29 de junio de 1995, sale el álbum Sueño Stereo la cual sería el último por parte de la banda. En ese disco apostaron por la búsqueda de nuevas sonoridades en la experimentación electrónica; durante el tiempo, las canciones se volvieron clásicas y populares de la banda."
   },
   {
     "nombre": "Una p. de la euforia",
     "precio": 12,
     "anio": 2004,
     "urlDownload": "https://www.youtube.com/watch?v=dIQanvamlXQ",
-    "urlImg": "../img/una_parte_de_la_euforia.jpg"
+    "urlImg": "../img/una_parte_de_la_euforia.jpg",
+    "descripcion":"Una parte de la euforia es un DVD-Documental sobre la banda de rock argentina Soda Stereo, el cual fue grabado desde 1983 (comienzo de la banda) a 1997 (la separación de la banda). El DVD contiene filmaciones de escenas de conciertos, backstage, entrevistas, ensayos, pruebas de sonido y presentaciones en televisión, entre otras. Es un documental que abarca el período de 1983 a 1997. El DVD contiene escenas de conciertos, ensayos, entrevistas, backstage, pruebas de sonido y presentaciones en televisión."
   },
   {
     "nombre": "El últ. concierto A",
     "precio": 12,
     "anio": 1997,
     "urlDownload": "https://www.youtube.com/watch?v=OL_Ga46VHog",
-    "urlImg": "../img/el_ultimo_concierto_A.jpg"
+    "urlImg": "../img/el_ultimo_concierto_A.jpg",
+    "descripcion":"Gustavo Cerati fue el cantante y guitarrista de la banda de rock argentina Soda Stereo, junto con Zeta Bosio y Charly Alberti. La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. "
   },
   {
     "nombre": "El últ. concierto B",
     "precio": 17,
     "anio": 1997,
     "urlDownload": "https://www.youtube.com/watch?v=z6YmIBIYlOI",
-    "urlImg": "../img/el_ultimo_concierto_B.jpg"
+    "urlImg": "../img/el_ultimo_concierto_B.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Me verás volver",
     "precio": 17,
     "anio": 2007,
     "urlDownload": "https://www.youtube.com/watch?v=_visFlIG2q4",
-    "urlImg": "../img/me_veras_volver_disco.jpg"
+    "urlImg": "../img/me_veras_volver_disco.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Languis",
     "precio": 17,
     "anio": 1989,
     "urlDownload": "https://www.youtube.com/watch?v=9K8EGNZj5Eo",
-    "urlImg": "../img/languis.jpg"
+    "urlImg": "../img/languis.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Rex Mix",
     "precio": 16,
     "anio": 1991,
     "urlDownload": "https://www.youtube.com/watch?v=2lC0KHEjpCU",
-    "urlImg": "../img/rex_mix.jpg"
+    "urlImg": "../img/rex_mix.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Sep7imo Día",
     "precio": 16,
     "anio": 2022,
     "urlDownload": "https://www.youtube.com/watch?v=VpNTdI0xFY4",
-    "urlImg": "../img/sep7imo_dia.jpg"
+    "urlImg": "../img/sep7imo_dia.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Bocanada",
     "precio": 16,
     "anio": 1999,
     "urlDownload": "https://www.youtube.com/watch?v=IMw21ADHgJI",
-    "urlImg": "../img/bocanada.jpg"
+    "urlImg": "../img/bocanada.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Amor Amarillo",
     "precio": 16,
     "anio": 1993,
     "urlDownload": "https://www.youtube.com/watch?v=WlracwwxpPM",
-    "urlImg": "../img/amor_amarillo.jpg"
+    "urlImg": "../img/amor_amarillo.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Fuerza Natural",
     "precio": 9,
     "anio": 2009,
     "urlDownload": "https://www.youtube.com/watch?v=9gkUnFGsHtE",
-    "urlImg": "../img/fuerza_natural.jpg"
+    "urlImg": "../img/fuerza_natural.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Siempre es Hoy",
     "precio": 9,
     "anio": 2002,
     "urlDownload": "https://www.youtube.com/watch?v=L5VkdSx3h8A",
-    "urlImg": "../img/siempre_es_hoy.jpg"
+    "urlImg": "../img/siempre_es_hoy.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Ahí Vamos",
     "precio": 11,
     "anio": 2006,
     "urlDownload": "https://www.youtube.com/watch?v=2eW4gfPP7j8",
-    "urlImg": "../img/ahi_vamos.jpg"
+    "urlImg": "../img/ahi_vamos.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Colores Santos",
     "precio": 11,
     "anio": 1992,
     "urlDownload": "https://www.youtube.com/watch?v=RzZf9uRMCsE",
-    "urlImg": "../img/colores_santos.jpg"
+    "urlImg": "../img/colores_santos.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "+Bien",
     "precio": 11,
     "anio": 2001,
     "urlDownload": "https://www.youtube.com/watch?v=Ex80WUkDFSU",
-    "urlImg": "../img/mas_bien.jpg"
+    "urlImg": "../img/mas_bien.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "11 Epis. Sinfónicos",
     "precio": 10,
     "anio": 2001,
     "urlDownload": "https://www.youtube.com/watch?v=PGBET5f7DoI",
-    "urlImg": "../img/11_episodios_sinfonicos.jpg"
+    "urlImg": "../img/11_episodios_sinfonicos.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Revers. S. es Hoy",
     "precio": 10,
     "anio": 2003,
     "urlDownload": "https://www.youtube.com/watch?v=LfzhmnClaDk",
-    "urlImg": "../img/reversiones_siempre_es_hoy.jpg"
+    "urlImg": "../img/reversiones_siempre_es_hoy.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Canc. Eleg. 93-04",
     "precio": 10,
     "anio": 2004,
     "urlDownload": "https://www.youtube.com/watch?v=sIIpdAjLicU",
-    "urlImg": "../img/canciones_elegidas.jpg"
+    "urlImg": "../img/canciones_elegidas.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   },
   {
     "nombre": "Infinito",
     "precio": 10,
     "anio": 2015,
     "urlDownload": "https://www.youtube.com/playlist?list=PLI6kLIhBBwmTLvC9t144SNfyp31WQqWQm",
-    "urlImg": "../img/infinito.jpg"
+    "urlImg": "../img/infinito.jpg",
+    "descripcion":"La banda es considerada una leyenda de la música latinoamericana y una de las más importantes del rock en español. Soda Stereo se caracterizó por su atención a los detalles, como la imagen, la puesta en escena y el sonido. Su música combinaba elementos de rock clásico y vanguardia, con influencias de pop, dark, funk, Madchester, trip-hop, rock alternativo y electrónica."
   }
 ]

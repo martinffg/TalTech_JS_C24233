@@ -26,6 +26,7 @@ body{
 
 #catalogo-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
@@ -260,4 +261,46 @@ body{
     height: 55px;
     position: relative;
   }
+
+  button[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #4CAF50;
+    border: 1px solid #032205;
+    font-weight: bolder;
+  }
+
+  .buttonCatalogo {
+    font-family: 'Afacad Flux', Verdana, Tahoma, sans-serif;
+    background-color: indigo;
+    color: #fff;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: clamp(1rem, 2vw, 2rem);
+  }
+  
+  .buttonCatalogo:hover {
+    background-color: #fff;
+    color: indigo;
+    transition: background-color 1s ease-out;
+  }
+
+  .description {
+    display: none;
+    border: 1px solid black;
+    background-color:  #a8c3d2 ;
+    color: #032205;
+    border-radius: 24px;
+    padding: 1rem;
+  }
+
 }
