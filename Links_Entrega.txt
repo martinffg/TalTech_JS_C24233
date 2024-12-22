@@ -1,5 +1,5 @@
 Carpeta en Drive Compartida con este Link: https://drive.google.com/drive/folders/1v7UdQPYL9BkvihSVE1DaUJz2t_oFpjhT?usp=sharing
 
-Link a GitHub Pages del proyecto: https://github.com/martinffg/TalTech_JS_C24233
+Link al repo Github: https://github.com/martinffg/TalTech_JS_C24233.git
 
-https://github.com/martinffg/TalTech_JS_C24233.git
+Link a GitHub Pages del proyecto: https://martinffg.github.io/TalTech_JS_C24233/
